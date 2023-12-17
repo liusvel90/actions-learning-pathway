@@ -37,7 +37,8 @@ jobs:
       #url: ${{ steps.deployment.outputs.page_url }}
       #url: ${{ steps.step_name.outputs.url_output }}
       # check changes
-      url: ${{ steps.deploy.outputs.page_url }}      
+      # url: ${{ steps.deploy.outputs.page_url }}
+      url: https://github.com
     runs-on: ubuntu-latest
 
     steps:
